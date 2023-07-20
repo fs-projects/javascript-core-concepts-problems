@@ -144,3 +144,26 @@
 // console.log(member.getFullName())
 // console.log(Person); - ignore
 // console.log(Person.getFullName.bind(member)()); - ignore
+
+// HOW WILL YOU DESTRUCTURE so that "testcopy" has the value of "test"
+// const obj = {
+//   a: 'Aman',
+//   b: {
+//     c: 'Chris',
+//     d: {
+//       test: 'Eram',
+//     },
+//   },
+// };
+// const {
+//   b: {
+//     d: { test: testcopy },
+//   },
+// } = obj;
+// const {
+//   b: {
+//     d: { test },
+//   },
+// } = obj;
+// console.log(test);
+// console.log(testcopy); // Output: "Eram"
